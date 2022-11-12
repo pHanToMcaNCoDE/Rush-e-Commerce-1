@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
+
+:root{
+
+  /* Fonts */
+  --sansPro: 'Source Sans Pro'; 
+  --notoSans: 'Noto Sans';
+
+  /* Big font */
+  --kanit: 'Kanit';
+  --roboto: 'Roboto';
+
+  /* t 21px */
+
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.row .col-md-6 .pass{
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+}
+.row .col-md-6 .pass .pas-icons{
+  position: absolute;
+  line-height: 35px;
+  width: 20px;
+  height: 20px;
+  /* top: 2px; */
+  margin: -2.8% 0 0 38%;
+}
+.row .col-md-6 .pass .pas-icons .fa-eye{
+  display: none;
+}
+.row .col-md-6 .pass .pas-icons .fa-eye.active{
+  display: inline;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+/* .carousel-item {
+  height: 0rem;
+} */
+/* .container button{
+  position: absolute;
+  top: 50%;
+  left: 77%;
+  transform: translate(-50%, -50%);
+} */
+/* .container .search-box{
+  position: relative;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+} */
+
+/* .search-box input{
+  /* border: none; 
+  background: #f0f1f1;
+  width: 100%;
+  padding: 10px;
+  transition: all .25s ease-in .25s;
+  color: transparent;
+  font-size: 20px;
+} */
+/* .hero{
+  height: 100vh;
+  width: 100%;
+  padding: 3rem 4rem;
+  box-sizing: border-box;
+}
+
+.products1{
+  height: 100vh;
+  width: 100%;
+  padding: 3rem 4rem;
+  box-sizing: border-box;
+} */
+
+.carousel-caption h1{
+  position: relative;
+  /* top: -70px; */
+  font-family: var(--kanit), sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 6px;
+  word-spacing: 10px;
+}
+
+.carousel-caption p{
+  position: relative;
+  /* top: -70px; */
+}
+
+
+
+.form-input:focus {
+  outline: 0;
+}
+
+.fs-4{
+  font-family: var(--roboto);
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+
+.max-width{
+  max-width: 1330px;
+  margin: auto;
+  padding: 0px 30px;
+}
+.products{
+  padding: 50% 30px 0 30px;
+}
+/* .products .max-width .content{
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+} */
+.products .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products .row .col{ 
+  width: 15rem;
+  height: 26.5rem;
+}
+.products .row .col .con{
+  display: block;
+}
+
+
+.products2{
+  padding: 2% 30px 0 30px;
+}
+.products2 .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products2 .row .col{ 
+  width: 15rem;
+  height: 26.5rem;
+}
+.products2 .row .col .con{
+  display: block;
+}
+
+/* .products3{
+  padding: 5% 30px 0 30px;
+}
+.products3 .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products3 .row .col{ 
+  width: 15rem;
+  height: 26.5rem;
+}
+.products3 .row .col .con{
+  display: block;
+} */
+
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+/* .row .col-md-6 .pas-icons .fa-eye.active{
+  right: 50%;
+} */
+/* #pas-icons i.fa-eye.active{
+  display: inline;
+} */
