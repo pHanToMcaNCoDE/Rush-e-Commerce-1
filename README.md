@@ -16,6 +16,6 @@ Form validation principle were used to authenticate users to ahve access to the 
 
 # Technologies Used
 
-Client-Side: HTML, CSS, JS
+Client-Side: HTML, CSS, BootStrap, JS
 
 Server-Side: PHP, MySQL
